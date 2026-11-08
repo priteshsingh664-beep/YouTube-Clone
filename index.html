@@ -1,0 +1,204 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<input type="checkbox" id="dark-toggle" hidden>
+
+<header class="navbar">
+
+    <div class="logo">
+        <label for="menu-toggle" class="menu">☰</label>
+        <span class="yt-icon">
+            <span></span>
+        </span>
+        <span class="logo-text">YouTube</span>
+    </div>
+
+    <div class="search">
+        <input type="text" placeholder="Search">
+        <button>⌕</button>
+    </div>
+
+    <div class="right-menu">
+        <button>＋ Create</button>
+        <button class="notification">♧</button>
+        <button class="profile">●</button>
+        <label for="dark-toggle" class="dark-btn">☾</label>
+    </div>
+
+</header>
+
+<input type="checkbox" id="menu-toggle" hidden>
+
+<aside class="sidebar">
+
+    <a href="#home">⌂ Home</a>
+    <a href="#shorts">▣ Shorts</a>
+    <a href="#subscriptions">▤ Subscriptions</a>
+
+    <hr>
+
+    <h3>You ›</h3>
+    <a href="#history">◷ History</a>
+    <a href="#playlists">▤ Playlists</a>
+    <a href="#your-videos">▶ Your videos</a>
+    <a href="#liked">♡ Liked videos</a>
+
+    <hr>
+
+    <h3>Explore</h3>
+    <a href="#trending">↗ Trending</a>
+    <a href="#music">♫ Music</a>
+    <a href="#gaming">▣ Gaming</a>
+    <a href="#news">▤ News</a>
+
+</aside>
+
+<main class="content" id="home">
+
+    <div class="categories">
+        <a href="#home" class="selected">All</a>
+        <a href="#music">Music</a>
+        <a href="#gaming">Gaming</a>
+        <a href="#live">Live</a>
+        <a href="#technology">Technology</a>
+        <a href="#comedy">Comedy</a>
+        <a href="#education">Education</a>
+    </div>
+
+    <section class="video-grid">
+
+        <!-- VIDEO 1 -->
+
+        <div class="video-card">
+            <a href="https://www.youtube.com/watch?v=JGwWNGJdvx8" target="_blank">
+                <img src="https://img.youtube.com/vi/JGwWNGJdvx8/hqdefault.jpg" alt="Shape of You">
+            </a>
+
+            <div class="video-info">
+                <div class="avatar">E</div>
+                <div>
+                    <h3>Ed Sheeran - Shape of You (Official Music Video)</h3>
+                    <p>Ed Sheeran</p>
+                    <p>Official Music Video</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- VIDEO 2 -->
+
+        <div class="video-card">
+            <a href="https://www.youtube.com/watch?v=h6fcK_fRYaI" target="_blank">
+                <img src="https://img.youtube.com/vi/h6fcK_fRYaI/hqdefault.jpg" alt="The Egg Kurzgesagt">
+            </a>
+
+            <div class="video-info">
+                <div class="avatar">K</div>
+                <div>
+                    <h3>The Egg - A Short Story</h3>
+                    <p>Kurzgesagt - In a Nutshell</p>
+                    <p>Animation • Story</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- VIDEO 3 -->
+
+        <div class="video-card">
+            <a href="https://www.youtube.com/watch?v=rb7TVW77ZCs" target="_blank">
+                <img src="https://img.youtube.com/vi/rb7TVW77ZCs/hqdefault.jpg" alt="How vaccines work">
+            </a>
+
+            <div class="video-info">
+                <div class="avatar">T</div>
+                <div>
+                    <h3>How Do Vaccines Work?</h3>
+                    <p>TED-Ed</p>
+                    <p>Science • Education</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- VIDEO 4 -->
+
+        <div class="video-card">
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+                <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/hqdefault.jpg" alt="Never Gonna Give You Up">
+            </a>
+
+            <div class="video-info">
+                <div class="avatar">R</div>
+                <div>
+                    <h3>Never Gonna Give You Up - Official Video</h3>
+                    <p>Rick Astley</p>
+                    <p>Music • Official Video</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- VIDEO 5 -->
+
+        <div class="video-card">
+            <a href="https://www.youtube.com/watch?v=9bZkp7q19f0" target="_blank">
+                <img src="https://img.youtube.com/vi/9bZkp7q19f0/hqdefault.jpg" alt="Gangnam Style">
+            </a>
+
+            <div class="video-info">
+                <div class="avatar">P</div>
+                <div>
+                    <h3>PSY - GANGNAM STYLE (Official Music Video)</h3>
+                    <p>officialpsy</p>
+                    <p>Music • K-Pop</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- VIDEO 6 -->
+
+        <div class="video-card">
+            <a href="https://www.youtube.com/watch?v=jNQXAC9IVRw" target="_blank">
+                <img src="https://img.youtube.com/vi/jNQXAC9IVRw/hqdefault.jpg" alt="Me at the zoo">
+            </a>
+
+            <div class="video-info">
+                <div class="avatar">J</div>
+                <div>
+                    <h3>Me at the zoo - First YouTube Video</h3>
+                    <p>Jawed Karim</p>
+                    <p>Classic • YouTube History</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- VIDEO 7 -->
+
+        <div class="video-card">
+            <a href="https://www.youtube.com/watch?v=9OVtk6G2TnQ" target="_blank">
+                <img src="https://img.youtube.com/vi/9OVtk6G2TnQ/hqdefault.jpg" alt="How batteries work">
+            </a>
+
+            <div class="video-info">
+                <div class="avatar">T</div>
+                <div>
+                    <h3>How Batteries Work - Science Explained</h3>
+                    <p>TED-Ed</p>
+                    <p>Science • Technology</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+</main>
+
+</body>
+</html>
+```
